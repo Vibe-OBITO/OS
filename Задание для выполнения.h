@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <err.h>
-#include <sysexits.h>
-
-#define WWW "Well Well Well "
-#define World "World!"
-
+   #include <stdlib.h>
+     #include <unistd.h>
+       #include <string.h>
+          #include <err.h>
+             #include <sysexits.h>
+//////////////////////////////////////////
+   #define WWW "Well Well Well "
+   #define World "World!"
+/////////////////////////////////////////
 int 
 main (int ac, char *av[])
 {
@@ -16,7 +16,7 @@ main (int ac, char *av[])
 
   if (pipe(fd1) || pipe(fd2))
     err(EX_OSERR, "pipe");
-
+/////////////////////////////////////////
   // Запустим 2-х потомков
   if ((p1 = fork()) == 0) { // Первый
     write(fd1[1], WWW, sizeof(WWW) - 1);
@@ -28,7 +28,7 @@ main (int ac, char *av[])
   }
   if (p1 < 0 || p2 < 0)
     err(EX_OSERR, "fork");
-
+/////////////////////////////////////////
   // Прочтем их вывод
   char buf[sizeof(WWW) + sizeof(World)];
   int l, l1;
