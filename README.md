@@ -16,6 +16,13 @@
 В столбце fork описано генеалогическое древо процессов: каждая цифра указывает на относительный номер (не путать с pid) процесса, являющегося родителем для данного процесса. Например, строка 0 1 1 1 3 означает, что первый процесс не имеет родителя среди ваших процессов (порождается и запускается извне), второй, третий и четвертый - порождены первым, пятый - третьим.
 В столбце exec указан номер процесса, выполняющего вызов exec, команды для которого указаны в последнем столбце. Запускайте команду 
 
-№ | fork | exec |  |
---- |  --- | --- |
-1 | 0 1 1 1 3 3 5 | 1 | ls | 
+Команда установки	Назначение библиотеки
+pip install google	Поисковые запросы в Google
+pip install SpeechRecognition	Распознавание речи (Speech-To-Text)
+pip install vosk	Offline распознавание речи (Speech-To-Text)
+pip install pyttsx3	Offline синтез речи на Windows (Text-To-Speech)
+pip install wikipedia-api	Wikipedia API
+pip install googletrans	Google Translate
+pip install pyowm	Получение данных погоды с помощью OpenWeatherMap
+pip install python-dotenv	Работа с .env-файлами для хранения API-ключей
+pip install scikit-learn	Машинного обучение для угадывания намерений
