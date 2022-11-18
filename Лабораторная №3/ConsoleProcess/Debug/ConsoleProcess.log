@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Процесс не может получить доступ к файлу "d:\3 курс\os-2\consoleprocess\debug\.netframework,version=v4.5.2.assemblyattributes.asm", так как этот файл используется другим процессом.
+  WriteInFile.cpp
+  ConsoleProcess.cpp
+  Создание кода...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  WriteInFile.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
+  ConsoleProcess.vcxproj -> D:\3 курс\OS-2\Debug\ConsoleProcess.exe
+  ConsoleProcess.vcxproj -> D:\3 курс\OS-2\Debug\ConsoleProcess.pdb (Partial PDB)
