@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/os1.dir/src/main.c.o CMakeFiles/os1.dir/src/memory/memory.c.o -o os1 

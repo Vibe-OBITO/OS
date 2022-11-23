@@ -1,0 +1,3 @@
+/home/noname/021731_Аблакулов_Амаль/лаб4/CMakeFiles/os1.dir
+/home/noname/021731_Аблакулов_Амаль/лаб4/CMakeFiles/edit_cache.dir
+/home/noname/021731_Аблакулов_Амаль/лаб4/CMakeFiles/rebuild_cache.dir
